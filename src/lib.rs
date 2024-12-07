@@ -7,6 +7,12 @@ extern crate mecab;
 use mecab::Tagger;
 use std::vec::Vec;
 
+#[cfg(target_pointer_width = "32")]
+type CLong = i32;
+
+#[cfg(target_pointer_width = "64")]
+type CLong = i64;
+
 #[napi(object)]
 pub struct NodeInfo {
   pub id: u32,
@@ -22,7 +28,7 @@ pub struct NodeInfo {
   pub alpha: f64,
   pub beta: f64,
   pub prob: f64,
-  pub cost: i64,
+  pub cost: CLong,
 }
 
 #[napi]
