@@ -1,0 +1,18 @@
+{
+  "name": "@zurmokeeper/mecab-rs-android-arm-eabi",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "mecab-rs.android-arm-eabi.node",
+  "files": [
+    "mecab-rs.android-arm-eabi.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

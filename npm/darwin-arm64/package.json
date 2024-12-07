@@ -1,0 +1,18 @@
+{
+  "name": "@zurmokeeper/mecab-rs-darwin-arm64",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "mecab-rs.darwin-arm64.node",
+  "files": [
+    "mecab-rs.darwin-arm64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

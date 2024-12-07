@@ -1,0 +1,15 @@
+{
+  "name": "@zurmokeeper/mecab-rs-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "mecab-rs.darwin-universal.node",
+  "files": [
+    "mecab-rs.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
